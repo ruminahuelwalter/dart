@@ -15,4 +15,21 @@ main(){
   print(b);
   print(c);
 
+  /// ===== String
+  String nombre = 'Tony';
+  print(nombre);
+
+  String nombre3 = "O'Connor";
+  print(nombre3);
+
+  String apelido = 'Stark';
+
+  String nombreCompleto = '$nombre $apelido';
+
+  String multilinea = '''
+    Hola mundo,
+    Hola $nombre $nombre3''';
+
+  print(multilinea);
+  print(nombreCompleto);
 }
